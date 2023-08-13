@@ -1,6 +1,8 @@
 import axios from "axios";
 import Reminder from "../models/reminder";
 
+// using a fake end point http://jsonplaceholder.typicode.com/
+
 class ReminderService {
     http = axios.create({
         baseURL: 'http://jsonplaceholder.typicode.com/'
